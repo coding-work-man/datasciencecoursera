@@ -1,7 +1,7 @@
 # First you need to set your working directory to the directory where run_analysis.R is located
 # setwd("d:/data-analysis/data-spec/dataclean/peer-assignment")
 
-dataclean = function(filname="tidydata.txt") {
+dataclean = function(filename="tidydata.txt") {
 
 	# Step 1: read in the train data and test data 
 	train.data = read.table("./Dataset/train/X_train.txt",row.names=NULL)
